@@ -1,0 +1,34 @@
+{
+	"version": "1.0",
+	"id": "MLuka47.WOALegacyMainTheme",
+	"name": "WOA Legacy Main Menu Theme Remplacement",
+	"description": "A mod that restores menu music from Hitman 2016 or Hitman 2 (2018).",
+	"authors": ["MLuka47"],
+	"updateCheck": "https://github.com/LukaMegurine6/WOA-Expansion/releases/download/1.5.0/updates.json",
+	"contentFolders": ["content"],
+	"options": [
+		{
+			"name": "Add WOA Expansion in Campaign",
+			"tooltip": "Add WOA Custom campaign category",
+			"type": "checkbox",
+
+		},
+		{
+			"name": "Add WOA Expansion with Challenges",
+			"tooltip": "Add WOA Custom challenges in certain missions",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"peacockPlugins": ["WOAExpansionChallenges.plugin.js"]
+		},
+		{
+			"name": "Add Contract creation for H2 Special Assignment",
+			"tooltip": "Add Contract creation for H2 Special Assignment",
+			"type": "checkbox",
+			"peacockPlugins": ["FinalContractCreation.plugin.js"]
+		}
+
+	],
+				
+			
+	"frameworkVersion": "2.2.0"
+}
