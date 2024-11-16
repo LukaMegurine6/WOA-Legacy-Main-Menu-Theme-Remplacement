@@ -9,10 +9,16 @@
 	"options": [
 		{	
 			"group": "Replace",
+			"name": "Hitman 2016",
+			"tooltip": "Hitman 2016 Main Menu Theme by Niels Bye Nielsen (For the moment, the music does'nt loop",
+			"type": "select",
+			"contentFolders": ["content/H1"]
+		},
+		{	
+			"group": "Replace",
 			"name": "Hitman 2 (2018)",
 			"tooltip": "Hitman 2 (2018) Main Menu Theme by Niels Bye Nielsen",
 			"type": "select",
-			"enabledByDefault": true,
 			"contentFolders": ["content/H2"]
 		}
 
